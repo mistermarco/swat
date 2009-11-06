@@ -1,0 +1,17 @@
+Stanford Web Application Toolkit
+
+A framework designed to aid Stanford developers in creating robust applications by automating common tasks.
+
+Originally written by Dave Donahue and currently maintained by Marco Wise
+ 
+Copyright 2007, 2008, 2009 Board of Trustees, Leland Stanford Jr. University. This software is distributed under a BSD license. Please see the file LICENSE in the distribution for more information.
+ 
+This software is currently in production at Stanford University.
+
+This software uses two other open source packages which need to be installed under a lib/ directory. They are:
+
+phpMailer (tested with version 2.2)
+http://sourceforge.net/projects/phpmailer/
+
+spyc (tested with version 0.2.5)
+http://code.google.com/p/spyc/

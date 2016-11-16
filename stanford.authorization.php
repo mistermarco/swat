@@ -14,7 +14,7 @@
 
 class StanfordAuthorization {
   
-  const VERSION = '1.0.0';
+  const VERSION = '1.0.1';
   
   const USER = 'user';
   const GROUP = 'group';
@@ -65,7 +65,7 @@ class StanfordAuthorization {
   
   function add_to_acl($list, $type, $allow) {
     foreach($list as $name) {
-      array_push($this->acl, array(name => $name, type => $type, allow => $allow) );
+      array_push($this->acl, array('name' => $name, 'type' => $type, 'allow' => $allow) );
     }
   }
   

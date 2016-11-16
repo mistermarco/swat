@@ -15,7 +15,7 @@
 class StanfordData {
   
   // Version
-  const VERSION = '1.0.0';
+  const VERSION = '1.0.1';
   
   // Sort order
   const ASCENDING = "ASC";
@@ -386,7 +386,7 @@ class StanfordData {
     }
     
     // Add clause to end of order_by list
-    $this->order_by[] = array(field => $field, direction => $direction);
+    $this->order_by[] = array('field' => $field, 'direction' => $direction);
   }
   
   
